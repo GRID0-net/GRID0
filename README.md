@@ -6,7 +6,7 @@
 # Welcome to GRID0
 
 > **WIP Notice**: Official hub for GRID0 network routing and client setup. GRID0 is a virtual overlay network bridging all three Switch ecosystems into the same LAN lobby:
-* **Emulators** (PC)
+* **Emulators** (PC, Steam Deck)
 * **CFW** (Atmosphère, Modded Switch 1)
 * **OFW** (Stock Hardware, Unmodded Switch 1 and Switch 2)
 
@@ -16,17 +16,17 @@
 
 | Ecosystem | Platform / Environment | Core Tool | Connection Method |
 | :--- | :--- | :--- | :--- |
-| **Emulator** | PC / Steam Deck (Ryujinx, Astris, Eden, etc.) | **GRID0(+) client** | Desktop client binds directly to emulator network adapter. |
-| **CFW** | Modded Switch (Atmosphère) | **sys-GRID0(+)** | On-device background sysmodule. No host PC required. |
-| **OFW** | Unmodded Stock Switch or Switch 2 | **GRID0 relay** | PC companion application bridges Switch Wi-Fi traffic. |
+| **Emulator** | PC / Steam Deck (Ryujinx, Astris, Eden, etc.) | **emu-GRID0+** | Desktop client binds directly to emulator network adapter. |
+| **CFW** | Modded Switch (Atmosphère) | **cfw-GRID0+** | On-device background sysmodule. No host PC required. |
+| **OFW** | Unmodded Stock Switch or Switch 2 | **ofw-GRID0** | PC companion application bridges Switch Wi-Fi traffic. |
 
-> **Why the +?** `GRID0+ client` and `sys-GRID0+` are the names for the future versions that will connect to simulated Nintendo servers, with lobbies, matchmaking, and in-game features. That part is still being built. Everything in this guide just gets you onto the GRID0 network itself.
+> **Why the +?** `emu-GRID0+` and `cfw-GRID0+` are the names for the future versions that will connect to simulated Nintendo servers, with lobbies, matchmaking, and in-game features. That part is still being built. Everything in this guide just gets you onto the GRID0 network itself.
 
 ---
 
 ## Setup Guides
 
-### 1. Emulator Setup [GRID0-client] **[(WORK IN PROGRESS)](https://github.com/Musi95/GRID0-client/)**
+### 1. Emulator Setup [emu-GRID0+] **[(WORK IN PROGRESS)](https://github.com/Musi95/GRID0-client/)**
 
 If you play on an emulator you just need the native ZeroTier client.
 
@@ -66,7 +66,7 @@ If you play on an emulator you just need the native ZeroTier client.
 
 ---
 
-### 2. Modded Switch (CFW) [sys-GRID0]
+### 2. Modded Switch (CFW) [cfw-GRID0+]
 
 Runs directly on the console as a background sysmodule. No PC or phone required while playing.
 
@@ -82,7 +82,7 @@ Runs directly on the console as a background sysmodule. No PC or phone required 
 
 ---
 
-### 3. Stock Switch and Switch 2 Setup (OFW) [GRID0 relay]
+### 3. Stock Switch and Switch 2 Setup (OFW) [ofw-GRID0]
 
 Stock consoles cannot execute background custom modules. `grid0-relay` runs on a PC connected to the same home network, capturing and translating LAN-Play packets automatically.
 
