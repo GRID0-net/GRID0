@@ -1,6 +1,6 @@
 # Licenses
 
-every license used across the grid0 repos, all in one place.
+Every license used across the grid0 repos, all in one place.
 
 - GPL-3.0.txt - the relay (GRID0-ofw, GRID0-relay) and GRID0-App
 - GPL-2.0.txt - Atmosphere-libs (redluigi323's fork)
