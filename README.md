@@ -20,7 +20,6 @@
 - [Project Owners](#project-owners)
 - [GRID0-ofw](https://github.com/GRID0-net/ofw-GRID0) - relay for stock Switch
 - [cfw-GRID0plus](https://github.com/GRID0-net/cfw-GRID0plus) - sysmodule for modded Switch
-- [grid0plus](https://github.com/GRID0-net/grid0plus) - server
 - [Licenses](LICENSES/)
 
 ---
