@@ -16,9 +16,9 @@
 
 | Ecosystem | Platform / Environment | Core Tool | Connection Method |
 | :--- | :--- | :--- | :--- |
-| **Emulator** | PC / Steam Deck (Ryujinx, Astris, Eden, etc.) | **emu-GRID0+** | Desktop client binds directly to emulator network adapter. |
-| **CFW** | Modded Switch (Atmosphère) | **cfw-GRID0+** | On-device background sysmodule. No host PC required. |
-| **OFW** | Unmodded Stock Switch or Switch 2 | **ofw-GRID0** | PC companion application bridges Switch Wi-Fi traffic. |
+| **Emulator** | PC / Steam Deck (Ryujinx, Astris, Eden, etc.) | **GRID0+ emu** | Desktop client binds directly to emulator network adapter. |
+| **CFW** | Modded Switch (Atmosphère) | **GRID0+ cfw** | On-device background sysmodule. No host PC required. |
+| **OFW** | Unmodded Stock Switch or Switch 2 | **GRID0 ofw** | PC companion application bridges Switch Wi-Fi traffic. |
 
 > **Why the +?** `emu-GRID0+` and `cfw-GRID0+` are the names for the future versions that will connect to simulated Nintendo servers, with lobbies, matchmaking, and in-game features. That part is still being built. Everything in this guide just gets you onto the GRID0 network itself.
 
@@ -26,7 +26,7 @@
 
 ## Setup Guides
 
-### 1. Emulator Setup [emu-GRID0+] **[(WORK IN PROGRESS)](https://github.com/Musi95/GRID0-client/)**
+### 1. Emulator Setup (GRID0+ emu) **[(WORK IN PROGRESS)](https://github.com/Musi95/GRID0-client/)**
 
 If you play on an emulator you just need the native ZeroTier client.
 
@@ -66,11 +66,11 @@ If you play on an emulator you just need the native ZeroTier client.
 
 ---
 
-### 2. Modded Switch (CFW) [cfw-GRID0+]
+### 2. Modded Switch (GRID0+ cfw)
 
 Runs directly on the console as a background sysmodule. No PC or phone required while playing.
 
-1. Download the latest release from the **[sys-GRID0](https://github.com/redluigi323/sys-GRID0/)** repository.
+1. Download the latest release from the **[GRID0+ cfw](https://github.com/redluigi323/sys-GRID0/)** repository.
 2. Extract the archive to the root of your SD card.
 
 [image: the SD card root with the extracted sys-GRID0 folders in place]
@@ -82,11 +82,11 @@ Runs directly on the console as a background sysmodule. No PC or phone required 
 
 ---
 
-### 3. Stock Switch and Switch 2 Setup (GRID0-ofw)
+### 3. Stock Switch and Switch 2 Setup (GRID0 ofw)
 
 Stock consoles cannot execute background custom modules. `grid0-relay` runs on a PC connected to the same home network, capturing and translating LAN-Play packets automatically.
 
-1. Download and open `GRID0Relay` from the **[GRID0-ofw](https://github.com/GRID0-net/GRID0-ofw)** repository.
+1. Download and open `GRID0Relay` from the **[GRID0 ofw](https://github.com/GRID0-net/GRID0-ofw)** repository.
 2. `GRID0Relay` will automatically install ZeroTier One and npcap.
    <small><details><summary>For certainty:</summary>Make sure they are installed (it should say ZeroTier One and npcap are installed in the `GRID0Relay` settings).<br>
    <img src="img/relay-connection.gif" width="300" alt="Choosing the ZeroTier adapter in the relay Settings tab">
