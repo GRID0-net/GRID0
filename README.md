@@ -10,6 +10,19 @@
 * **CFW** (Atmosphère, Modded Switch 1)
 * **OFW** (Stock Hardware, Unmodded Switch 1 and Switch 2)
 
+## Contents
+
+- [Services](#services)
+- [Setup Guides](#setup-guides)
+  - [Emulator Setup](#1-emulator-setup-grid0-emu-work-in-progress)
+  - [Modded Switch](#2-modded-switch-grid0-cfw)
+  - [Stock Switch and Switch 2](#3-stock-switch-and-switch-2-setup-grid0-ofw)
+- [Project Owners](#project-owners)
+- [GRID0-ofw](https://github.com/GRID0-net/ofw-GRID0) - relay for stock Switch
+- [cfw-GRID0plus](https://github.com/GRID0-net/cfw-GRID0plus) - sysmodule for modded Switch
+- [grid0plus](https://github.com/GRID0-net/grid0plus) - server
+- [Licenses](LICENSES/)
+
 ---
 
 ## Services
