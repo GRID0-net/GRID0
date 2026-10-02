@@ -82,11 +82,11 @@ Runs directly on the console as a background sysmodule. No PC or phone required 
 
 ---
 
-### 3. Stock Switch and Switch 2 Setup (OFW) [ofw-GRID0]
+### 3. Stock Switch and Switch 2 Setup (GRID0-ofw)
 
 Stock consoles cannot execute background custom modules. `grid0-relay` runs on a PC connected to the same home network, capturing and translating LAN-Play packets automatically.
 
-1. Download and open `GRID0Relay` from the **[GRID0-relay](https://github.com/redluigi323/grid0-relay)** repository.
+1. Download and open `GRID0Relay` from the **[GRID0-ofw](https://github.com/GRID0-net/GRID0-ofw)** repository.
 2. `GRID0Relay` will automatically install ZeroTier One and npcap.
    <small><details><summary>For certainty:</summary>Make sure they are installed (it should say ZeroTier One and npcap are installed in the `GRID0Relay` settings).<br>
    <img src="img/relay-connection.gif" width="300" alt="Choosing the ZeroTier adapter in the relay Settings tab">
