@@ -47,7 +47,7 @@
 
 ## Setup Guides
 
-### 1. Emulator Setup (GRID0+ emu) **[(WORK IN PROGRESS)](https://github.com/Musi95/GRID0-client/)**
+### 1. Emulator Setup (GRID0+ emu)
 
 If you play on an emulator you just need the native ZeroTier client.
 
