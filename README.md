@@ -72,9 +72,9 @@ graph TD
 
 <details>
 <summary><b>Android Flowchart</b></summary>
-
+Are you using a Mac?
 <details>
-<summary><b>Do you have a Mac: Yes</b></summary>
+<summary><b>Yes</b></summary>
 
 <details>
 <summary><b>Intel or Silicon?</b></summary>
@@ -87,7 +87,7 @@ graph TD
 </details>
 
 <details>
-<summary><b>Do you have a Mac: No</b></summary>
+<summary><b>No</b></summary>
 
 <details>
 <summary><b>CPU from 2019 or newer?</b></summary>
