@@ -51,29 +51,19 @@
 
 #### Which emulator should I use?
 
-<pre>
-            ╭─────────────────╮
-            │  Do you have    │
-            │     a Mac?      │
-            ╰────────┬────────╯
-                Yes  │  No
-        ╭───────────┴───────────╮
-        ▼                       ▼
-  ╭───────────╮           ╭───────────╮
-  │ Intel or  │           │ CPU from  │
-  │ Silicon?  │           │ 2019 or   │
-  │           │           │ newer?    │
-  ╰─────┬─────╯           ╰─────┬─────╯
-   Intel│Silicon           Yes │ No
-        ▼     ▼                 ▼   ▼
-  ┌─────────┐ ┌──────────┐ ┌─────────┐ ┌──────────┐
-  │ Ryujinx │ │ Citrosis │ │ Ryujinx │ │  Citron  │
-  └─────────┘ └──────────┘ └─────────┘ └──────────┘
-</pre>
-
-- [**Ryujinx**](https://github.com/GRID0-net/GRID0-ryu) — best all-rounder
-- **Citrosis** — macOS Silicon, native Swift UI + Metal
-- [**Citron**](https://github.com/GRID0-net/GRID0-citron) — better on weak hardware
+```mermaid
+graph TD
+    A[Do you have a Mac?] --> B{Yes}
+    A --> C{No}
+    B --> D{Intel or Silicon?}
+    D -->|Intel| E[Ryujinx]
+    D -->|Silicon| F[Citrosis<br/>native Swift UI, Metal renderer]
+    C --> G{Is your CPU from 2019 or newer?}
+    G -->|Yes| E
+    G -->|No| I[Citron<br/>better on weak hardware]
+    click E "https://github.com/GRID0-net/GRID0-ryu"
+    click I "https://github.com/GRID0-net/GRID0-citron"
+```
 
 If you play on an emulator you just need the native ZeroTier client.
 
