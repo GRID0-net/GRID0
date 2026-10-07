@@ -58,11 +58,13 @@ graph TD
     B --> D{Intel or Silicon?}
     D -->|Intel| E[Ryujinx]
     D -->|Silicon| F[Citrosis<br/>native Swift UI, Metal renderer]
-    C --> G{Can your PC handle emulation smoothly?}
-    G -->|Yes| H[Ryujinx]
+    C --> G{Is your CPU from 2019 or newer?}
+    G -->|Yes| E
     G -->|No| I[Citron<br/>better performance on weak hardware]
     click I "https://github.com/GRID0-net/GRID0-citron"
 ```
+
+If you play on an emulator you just need the native ZeroTier client.
 
 #### Windows
 
