@@ -51,6 +51,9 @@
 
 #### Which emulator should I use?
 
+<details>
+<summary><b>PC Flowchart</b></summary>
+
 ```mermaid
 graph TD
     A[Do you have a Mac?] --> B{Yes}
@@ -65,6 +68,39 @@ graph TD
     click I "https://github.com/GRID0-net/GRID0-citron"
 ```
 
+</details>
+
+<details>
+<summary><b>Android Flowchart</b></summary>
+
+<details>
+<summary><b>Do you have a Mac: Yes</b></summary>
+
+<details>
+<summary><b>Intel or Silicon?</b></summary>
+
+- <b>Intel</b> → [**Ryujinx**](https://github.com/GRID0-net/GRID0-ryu)
+- <b>Silicon</b> → <b>Citrosis</b> <i>(native Swift UI, Metal renderer)</i>
+
+</details>
+
+</details>
+
+<details>
+<summary><b>Do you have a Mac: No</b></summary>
+
+<details>
+<summary><b>CPU from 2019 or newer?</b></summary>
+
+- <b>Yes</b> → [**Ryujinx**](https://github.com/GRID0-net/GRID0-ryu)
+- <b>No</b> → [**Citron**](https://github.com/GRID0-net/GRID0-citron) <i>(better on weak hardware)</i>
+
+</details>
+
+</details>
+
+</details>
+
 <details>
 <summary><b>Emulator links</b></summary>
 
@@ -72,8 +108,6 @@ graph TD
 - **Ryujinx** or **Citron**: pick from the tree above — [Ryujinx](https://github.com/GRID0-net/GRID0-ryu) for newer hardware, [Citron](https://github.com/GRID0-net/GRID0-citron) for weaker PCs
 
 </details>
-
-If you play on an emulator you just need the native ZeroTier client.
 
 #### Windows
 
