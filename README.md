@@ -64,8 +64,6 @@ graph TD
     click I "https://github.com/GRID0-net/GRID0-citron"
 ```
 
-If you play on an emulator you just need the native ZeroTier client.
-
 #### Windows
 
 1. Download and install **[ZeroTier One](https://www.zerotier.com/download/)**.
