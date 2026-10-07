@@ -51,9 +51,6 @@
 
 #### Which emulator should I use?
 
-<details>
-<summary><b>Click to expand the decision tree</b></summary>
-
 ```mermaid
 graph TD
     A[Do you have a Mac?] --> B{Yes}
@@ -68,10 +65,13 @@ graph TD
     click I "https://github.com/GRID0-net/GRID0-citron"
 ```
 
-</details>
+<details>
+<summary><b>Emulator links</b></summary>
 
 - **Citrosis**: macOS Apple Silicon with native Swift UI and Metal renderer
 - **Ryujinx** or **Citron**: pick from the tree above — [Ryujinx](https://github.com/GRID0-net/GRID0-ryu) for newer hardware, [Citron](https://github.com/GRID0-net/GRID0-citron) for weaker PCs
+
+</details>
 
 If you play on an emulator you just need the native ZeroTier client.
 
