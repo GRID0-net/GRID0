@@ -70,6 +70,9 @@ graph TD
 
 </details>
 
+- **Citrosis**: macOS Apple Silicon with native Swift UI and Metal renderer
+- **Ryujinx** or **Citron**: pick from the tree above — [Ryujinx](https://github.com/GRID0-net/GRID0-ryu) for newer hardware, [Citron](https://github.com/GRID0-net/GRID0-citron) for weaker PCs
+
 If you play on an emulator you just need the native ZeroTier client.
 
 #### Windows
