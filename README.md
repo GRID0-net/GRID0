@@ -62,6 +62,7 @@ graph TD
     D -->|No| H{Want the most compatible all-rounder?}
     H -->|Yes| I[Ryujinx]
     H -->|No| J[Citron or Eden<br/>yuzu-based]
+    click J "https://github.com/GRID0-net/GRID0-citron"
 ```
 
 If you play on an emulator you just need the native ZeroTier client.
