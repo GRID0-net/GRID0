@@ -51,14 +51,7 @@
 
 #### Which emulator should I use?
 
-**Do you have a Mac?**
-
-- **Yes** → Intel or Silicon?
-  - **Intel** → Ryujinx
-  - **Silicon** → Citrosis *(native Swift UI, Metal renderer)*
-- **No** → Is your CPU from 2019 or newer?
-  - **Yes** → Ryujinx
-  - **No** → [Citron](https://github.com/GRID0-net/GRID0-citron) *(better on weak hardware)*
+![Emulator decision flowchart](img/emulator-flowchart.png)
 
 If you play on an emulator you just need the native ZeroTier client.
 
