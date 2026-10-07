@@ -51,16 +51,24 @@
 
 #### Which emulator should I use?
 
-**On macOS (Apple Silicon):**
-- Want the best native experience? → **Citrosis** (native Swift UI, Metal renderer)
-- Want something lightweight? → **Astris**
-
-**On macOS (Intel), Windows, or Linux:**
-- Want the most compatible all-rounder? → **Ryujinx**
-- Want a yuzu-based emulator? → **Citron** or **Eden**
-
-**On Android:**
-- → **Eden**
+```
+What device are you on?
+|
++-- Android --> Eden
+|
++-- macOS (Apple Silicon)
+|   |
+|   +-- Want the best native experience? --> Citrosis
+|   |   (native Swift UI, Metal renderer)
+|   |
+|   +-- Want something lightweight? --> Astris
+|
++-- macOS (Intel), Windows, or Linux
+    |
+    +-- Want the most compatible all-rounder? --> Ryujinx
+    |
+    +-- Prefer yuzu-based? --> Citron or Eden
+```
 
 If you play on an emulator you just need the native ZeroTier client.
 
