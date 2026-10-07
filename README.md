@@ -53,12 +53,15 @@
 
 ```mermaid
 graph TD
-    A[What device are you on?] --> B{macOS Apple Silicon?}
-    B -->|Yes| C[Citrosis<br/>native Swift UI, Metal renderer]
-    B -->|No| D{Want the most compatible all-rounder?}
-    D -->|Yes| E[Ryujinx]
-    D -->|No| F[Citron<br/>yuzu-based]
-    click F "https://github.com/GRID0-net/GRID0-citron"
+    A[Do you have a Mac?] --> B{Yes}
+    A --> C{No}
+    B --> D{Intel or Silicon?}
+    D -->|Intel| E[Ryujinx]
+    D -->|Silicon| F[Citrosis<br/>native Swift UI, Metal renderer]
+    C --> G{Can your PC handle emulation smoothly?}
+    G -->|Yes| H[Ryujinx]
+    G -->|No| I[Citron<br/>better performance on weak hardware]
+    click I "https://github.com/GRID0-net/GRID0-citron"
 ```
 
 If you play on an emulator you just need the native ZeroTier client.
