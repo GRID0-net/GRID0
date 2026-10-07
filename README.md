@@ -12,6 +12,27 @@
 
 ---
 
+## Where To Go
+
+**I want to play on...**
+- 🖥️ [Emulator (PC / Steam Deck)](#1-emulator-setup-grid0-emu-) - Ryujinx, Eden, Astris, etc.
+  - [Windows setup](#windows)
+  - [macOS setup](#macos)
+  - [Linux setup](#linux)
+  - [Emulator network settings](#emulator-settings-all-platforms)
+- 🔧 [Modded Switch (Atmosphère)](#2-modded-switch-grid0-cfw) - runs on the console, no PC needed
+- 🎮 [Stock Switch / Switch 2](#3-stock-switch-and-switch-2-setup-grid0-ofw) - unmodded hardware via PC relay
+  - [Automatic mode (Windows Hotspot)](#automatic-mode-easier-windows-and-hotspot-capable-only)
+  - [Manual mode](#manual-mode)
+
+**I want to learn about...**
+- [What GRID0 is](#welcome-to-grid0)
+- [The three ecosystems](#services)
+- [Why the + in GRID0+](#services)
+- [Who runs this](#project-owners)
+
+---
+
 ## Services
 
 | Ecosystem | Platform / Environment | Core Tool | Connection Method |
