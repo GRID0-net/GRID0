@@ -5,17 +5,10 @@
 
 # Welcome to GRID0
 
-> Official hub for GRID0 network routing and client setup. GRID0 is a virtual overlay network bridging all three Switch ecosystems into the same LAN lobby:
-> * **Emulators** (PC, Steam Deck)
-> * **CFW** (Atmosphère, Modded Switch 1)
-> * **OFW** (Stock Hardware, Unmodded Switch 1 and Switch 2)
-
----
-
 ## Where To Go
 
 **I want to play on...**
-- 🖥️ [Emulator (PC / Steam Deck)](#1-emulator-setup-grid0-emu-) - Ryujinx, Eden, Astris, etc.
+- 🖥️ [Emulator (PC / Steam Deck)](#1-emulator-setup-grid0-emu-) - Ryujinx and Citron
   - [Windows setup](#windows)
   - [macOS setup](#macos)
   - [Linux setup](#linux)
@@ -26,24 +19,10 @@
   - [Manual mode](#manual-mode)
 
 **I want to learn about...**
-- [What GRID0 is](#welcome-to-grid0)
+- [What GRID0 is](#what-is-grid0)
+- [What GRID0+ is](#what-is-grid0-plus)
 - [The three ecosystems](#services)
-- [Why the + in GRID0+](#services)
 - [Who runs this](#project-owners)
-
----
-
-## Services
-
-| Ecosystem | Platform / Environment | Core Tool | Connection Method |
-| :--- | :--- | :--- | :--- |
-| **Emulator** | PC / Steam Deck | **GRID0+ ryujinx<br> OR <br>GRID0+ citron** | A custom built emulator. |
-| **CFW** | Modded Switch | **GRID0+ cfw** | On-device background sysmodule and homebrew app. |
-| **OFW** | Unmodded Switch or Switch 2 | **GRID0 ofw** | PC companion application bridges Switch Wi-Fi traffic. |
-
-> **Why the +?** `GRID0+` and `GRID0+` are the names for the versions that will connect to simulated Nintendo servers, with lobbies, matchmaking, and in-game features.
-
----
 
 ## Setup Guides
 
@@ -52,7 +31,7 @@
 #### Which emulator should I use?
 
 <details>
-<summary><b>PC Flowchart</b></summary>
+<summary><b>Flowchart</b></summary>
 
 ```mermaid
 graph TD
@@ -71,36 +50,72 @@ graph TD
 </details>
 
 <details>
-<summary><b>Android Flowchart</b></summary>
-Are you using a Mac?
+<summary><b>If the flowchart above doesn't render, use this:</b></summary>
+<p align="center">Are you using a Mac?<br><sub>(An Apple computer)</sub></p>
+<div align="center">
+<table>
+<tr>
+<td valign="top">
 <details>
 <summary><b>Yes</b></summary>
-
+<p align="center"><b>Intel or Silicon?</b><br><sub><a href="https://support.apple.com/en-us/HT211814">Check if your Mac has Apple Silicon or Intel</a></sub></p>
+<div align="center">
+<table>
+<tr>
+<td valign="top">
 <details>
-<summary><b>Intel or Silicon?</b></summary>
+<summary><b>Intel</b></summary>
 
-- <b>Intel</b> → [**Ryujinx**](https://github.com/GRID0-net/GRID0-ryu)
-- <b>Silicon</b> → <b>Citrosis</b> <i>(native Swift UI, Metal renderer)</i>
-
-</details>
+<p align="center">Considering you are on an Intel Mac, the best emulator for you is<br><a href="https://github.com/GRID0-net/GRID0-ryu"><b>Ryujinx</b></a></p>
 
 </details>
+</td>
+<td valign="top">
+<details>
+<summary><b>Silicon</b></summary>
 
+<p align="center">Considering you are on a Silicon Mac, the best emulator for you is<br><a href="https://github.com/GRID0-net/GRID0-citron/releases"><b>Citrosis</b></a> <i>(native Swift UI, Metal renderer)</i></p>
+
+</details>
+</td>
+</tr>
+</table>
+</div>
+</details>
+</td>
+<td valign="top">
 <details>
 <summary><b>No</b></summary>
-
+<p align="center"><b>How old is your CPU?</b><br><sub><a href="https://www.intel.com/content/www/us/en/products/details/processors.html">Look up your Intel CPU release date</a> · <a href="https://www.amd.com/en/products/cpu.html">Look up your AMD CPU release date</a></sub></p>
+<div align="center">
+<table>
+<tr>
+<td valign="top">
 <details>
-<summary><b>CPU from 2019 or newer?</b></summary>
+<summary><b>From 2019 or newer</b></summary>
 
-- <b>Yes</b> → [**Ryujinx**](https://github.com/GRID0-net/GRID0-ryu)
-- <b>No</b> → [**Citron**](https://github.com/GRID0-net/GRID0-citron) <i>(better on weak hardware)</i>
-
-</details>
+<p align="center">Considering you are on a relatively new non-Mac, the best emulator for you is<br><a href="https://github.com/GRID0-net/GRID0-ryu"><b>Ryujinx</b></a></p>
 
 </details>
+</td>
+<td valign="top">
+<details>
+<summary><b>Older than 2019</b></summary>
+
+<p align="center">Considering you are on a relatively older non-Mac, the best emulator for you is<br><a href="https://github.com/GRID0-net/GRID0-citron"><b>Citron</b></a></p>
 
 </details>
-
+</td>
+</tr>
+</table>
+</div>
+</details>
+</td>
+</tr>
+</table>
+</div>
+</details>
+<hr>
 <details>
 <summary><b>Emulator links</b></summary>
 
@@ -197,8 +212,40 @@ Stock consoles cannot execute background custom modules. `grid0-relay` runs on a
 7. Make sure to save and connect to the network.
 </details></small>
 
-## Project Owners
+## What is GRID0
+
+GRID0 is a virtual overlay network bridging all three Switch ecosystems into the same LAN lobby:
+* **Emulators** (PC, Steam Deck)
+* **CFW** (Atmosphère, Modded Switch 1)
+* **OFW** (Stock Hardware, Unmodded Switch 1 and Switch 2)
+
+it runs on ZeroTier, so your unmodded switch, your emulator, and your modded console all end up on the same virtual LAN. Games that support local wireless or LAN play just work, no Nintendo servers involved, so its completely safe as long as you avoid playing with people who have unreleased content.
+
+<a id="what-is-grid0-plus"></a>
+## What is GRID0+
+
+GRID0+ is the version that connects to custom servers instead of LAN.
+
+Where GRID0 gives you the virtual network, GRID0+ gives you the online experience: lobbies, matchmaking, and in-game features like Splatfests, all running on community servers instead of Nintendo's.
+
+The `+` builds (GRID0+ ryujinx, GRID0+ citron, GRID0+ cfw) are the ones with private server support baked in.
+
+## Services
+
+| Ecosystem | Platform / Environment | Core Tool | Connection Method |
+| :--- | :--- | :--- | :--- |
+| **Emulator** | PC / Steam Deck | **GRID0+ ryujinx<br> OR <br>GRID0+ citron** | A custom built emulator. |
+| **CFW** | Modded Switch | **GRID0+ cfw** | On-device background sysmodule and homebrew app. |
+| **OFW** | Unmodded Switch or Switch 2 | **GRID0 ofw** | PC companion application bridges Switch Wi-Fi traffic. |
+
+---
+
+## Who Runs This
 
 - **[Mustafa](https://github.com/Musi95)**
 - **[name](https://github.com/redluigi323)**
 - **[Doughston](https://github.com/n-popescu)**
+
+---
+
+<sub>Built by 3 humans with limited AI assistance, tested on real Switches over many days and restless nights.
