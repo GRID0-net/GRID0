@@ -52,6 +52,9 @@ graph TD
 <details>
 <summary><b>Mobile Flowchart</b></summary>
 <p align="center">Are you using a Mac?</p>
+<table>
+<tr>
+<td valign="top">
 <details>
 <summary><b>Yes</b></summary>
 Intel or Silicon?
@@ -68,7 +71,8 @@ Intel or Silicon?
 
 </details>
 </details>
-<p align="center">—</p>
+</td>
+<td valign="top">
 <details>
 <summary><b>No</b></summary>
 CPU from 2019 or newer?
@@ -85,6 +89,9 @@ CPU from 2019 or newer?
 
 </details>
 </details>
+</td>
+</tr>
+</table>
 </details>
 <hr>
 <details>
