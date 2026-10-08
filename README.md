@@ -51,7 +51,7 @@ graph TD
 
 <details>
 <summary><b>Mobile Flowchart</b></summary>
-Are you using a Mac?
+<p align="center">Are you using a Mac?</p>
 <details>
 <summary><b>Yes</b></summary>
 Intel or Silicon?
