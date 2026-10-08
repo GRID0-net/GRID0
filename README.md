@@ -68,6 +68,7 @@ Intel or Silicon?
 
 </details>
 </details>
+<hr>
 <details>
 <summary><b>No</b></summary>
 CPU from 2019 or newer?
