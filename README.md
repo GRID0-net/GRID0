@@ -54,11 +54,17 @@ graph TD
 Are you using a Mac?
 <details>
 <summary><b>Yes</b></summary>
+Intel or Silicon?
 <details>
-<summary><b>Intel or Silicon?</b></summary>
+<summary><b>Intel</b></summary>
 
-- <b>Intel</b> → [**Ryujinx**](https://github.com/GRID0-net/GRID0-ryu)
-- <b>Silicon</b> → <b>Citrosis</b> <i>(native Swift UI, Metal renderer)</i>
+→ [**Ryujinx**](https://github.com/GRID0-net/GRID0-ryu)
+
+</details>
+<details>
+<summary><b>Silicon</b></summary>
+
+→ <b>Citrosis</b> <i>(native Swift UI, Metal renderer)</i>
 
 </details>
 </details>
