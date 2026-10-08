@@ -86,13 +86,13 @@ graph TD
 <td valign="top">
 <details>
 <summary><b>No</b></summary>
-<p align="center"><b>CPU from 2019 or newer?</b><br><sub><a href="https://www.intel.com/content/www/us/en/products/details/processors.html">Look up your Intel CPU release date</a> · <a href="https://www.amd.com/en/products/cpu.html">Look up your AMD CPU release date</a></sub></p>
+<p align="center"><b>How old is your CPU?</b><br><sub><a href="https://www.intel.com/content/www/us/en/products/details/processors.html">Look up your Intel CPU release date</a> · <a href="https://www.amd.com/en/products/cpu.html">Look up your AMD CPU release date</a></sub></p>
 <div align="center">
 <table>
 <tr>
 <td valign="top">
 <details>
-<summary><b>Yes</b></summary>
+<summary><b>From 2019 or newer</b></summary>
 
 → [**Ryujinx**](https://github.com/GRID0-net/GRID0-ryu)
 
@@ -100,7 +100,7 @@ graph TD
 </td>
 <td valign="top">
 <details>
-<summary><b>No</b></summary>
+<summary><b>Older than 2019</b></summary>
 
 → [**Citron**](https://github.com/GRID0-net/GRID0-citron) <i>(better on weak hardware)</i>
 
