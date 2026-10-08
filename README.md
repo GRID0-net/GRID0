@@ -74,7 +74,7 @@ graph TD
 <details>
 <summary><b>Silicon</b></summary>
 
-Considering you are on a Silicon Mac, the best emulator for you is <b>Citrosis</b> <i>(native Swift UI, Metal renderer)</i><br>
+<p align="center">Considering you are on a Silicon Mac, the best emulator for you is<br><a href="https://github.com/GRID0-net/GRID0-citron/releases"><b>Citrosis</b></a> <i>(native Swift UI, Metal renderer)</i></p>
 
 </details>
 </td>
