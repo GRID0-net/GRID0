@@ -183,16 +183,16 @@ GRID0 is a virtual overlay network bridging all three Switch ecosystems into the
 * **CFW** (Atmosphère, Modded Switch 1)
 * **OFW** (Stock Hardware, Unmodded Switch 1 and Switch 2)
 
-it runs on ZeroTier, so your switch, your friend's emulator, and someone's modded console all end up on the same virtual LAN. games that support local wireless or LAN play just work, no nintendo servers involved.
+it runs on ZeroTier, so your unmodded switch, your emulator, and your modded console all end up on the same virtual LAN. Games that support local wireless or LAN play just work, no Nintendo servers involved, so its completely safe as long as you avoid playing with people who have unreleased content.
 
 <a id="what-is-grid0-plus"></a>
 ## What is GRID0+
 
-GRID0+ is the version that connects to custom servers instead of just doing LAN.
+GRID0+ is the version that connects to custom servers instead of LAN.
 
-where GRID0 gives you the virtual network, GRID0+ gives you the online experience: lobbies, matchmaking, and in-game features like splatfests, all running on community servers instead of nintendo's.
+Where GRID0 gives you the virtual network, GRID0+ gives you the online experience: lobbies, matchmaking, and in-game features like Splatfests, all running on community servers instead of Nintendo's.
 
-the `+` builds (GRID0+ ryujinx, GRID0+ citron, GRID0+ cfw) are the ones with private server support baked in. point them at a GRID0+ server and you're playing online.
+The `+` builds (GRID0+ ryujinx, GRID0+ citron, GRID0+ cfw) are the ones with private server support baked in.
 
 ## Services
 
