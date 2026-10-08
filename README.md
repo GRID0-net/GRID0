@@ -66,7 +66,7 @@ graph TD
 <details>
 <summary><b>Intel</b></summary>
 
-Considering you are on an Intel Mac, the best emulator for you is <br>[**Ryujinx**](https://github.com/GRID0-net/GRID0-ryu)<br>
+<p align="center">Considering you are on an Intel Mac, the best emulator for you is<br><a href="https://github.com/GRID0-net/GRID0-ryu"><b>Ryujinx</b></a></p>
 
 </details>
 </td>
@@ -94,7 +94,7 @@ Considering you are on a Silicon Mac, the best emulator for you is <b>Citrosis</
 <details>
 <summary><b>From 2019 or newer</b></summary>
 
-Considering you are on a relatively new non-Mac, the best emulator for you is <br>[**Ryujinx**](https://github.com/GRID0-net/GRID0-ryu)<br>
+<p align="center">Considering you are on a relatively new non-Mac, the best emulator for you is<br><a href="https://github.com/GRID0-net/GRID0-ryu"><b>Ryujinx</b></a></p>
 
 </details>
 </td>
@@ -102,7 +102,7 @@ Considering you are on a relatively new non-Mac, the best emulator for you is <b
 <details>
 <summary><b>Older than 2019</b></summary>
 
-Considering you are on a relatively older non-Mac, the best emulator for you is <br>[**Citron**](https://github.com/GRID0-net/GRID0-citron)<br>
+<p align="center">Considering you are on a relatively older non-Mac, the best emulator for you is<br><a href="https://github.com/GRID0-net/GRID0-citron"><b>Citron</b></a></p>
 
 </details>
 </td>
