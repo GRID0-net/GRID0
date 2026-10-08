@@ -31,7 +31,7 @@
 #### Which emulator should I use?
 
 <details>
-<summary><b>PC Flowchart</b></summary>
+<summary><b>Flowchart</b></summary>
 
 ```mermaid
 graph TD
@@ -50,7 +50,7 @@ graph TD
 </details>
 
 <details>
-<summary><b>Mobile Flowchart</b></summary>
+<summary><b>If the flowchart above doesn't render, use this:</b></summary>
 <p align="center">Are you using a Mac?<br><sub>(An Apple computer)</sub></p>
 <div align="center">
 <table>
