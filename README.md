@@ -58,37 +58,57 @@ graph TD
 <td valign="top">
 <details>
 <summary><b>Yes</b></summary>
-Intel or Silicon?
+<p align="center"><b>Intel or Silicon?</b></p>
+<div align="center">
+<table>
+<tr>
+<td valign="top">
 <details>
 <summary><b>Intel</b></summary>
 
 → [**Ryujinx**](https://github.com/GRID0-net/GRID0-ryu)
 
 </details>
+</td>
+<td valign="top">
 <details>
 <summary><b>Silicon</b></summary>
 
 → <b>Citrosis</b> <i>(native Swift UI, Metal renderer)</i>
 
 </details>
+</td>
+</tr>
+</table>
+</div>
 </details>
 </td>
 <td valign="top">
 <details>
 <summary><b>No</b></summary>
-CPU from 2019 or newer?
+<p align="center"><b>CPU from 2019 or newer?</b></p>
+<div align="center">
+<table>
+<tr>
+<td valign="top">
 <details>
 <summary><b>Yes</b></summary>
 
 → [**Ryujinx**](https://github.com/GRID0-net/GRID0-ryu)
 
 </details>
+</td>
+<td valign="top">
 <details>
 <summary><b>No</b></summary>
 
 → [**Citron**](https://github.com/GRID0-net/GRID0-citron) <i>(better on weak hardware)</i>
 
 </details>
+</td>
+</tr>
+</table>
+</div>
 </details>
 </td>
 </tr>
