@@ -70,11 +70,17 @@ Intel or Silicon?
 </details>
 <details>
 <summary><b>No</b></summary>
+CPU from 2019 or newer?
 <details>
-<summary><b>CPU from 2019 or newer?</b></summary>
+<summary><b>Yes</b></summary>
 
-- <b>Yes</b> → [**Ryujinx**](https://github.com/GRID0-net/GRID0-ryu)
-- <b>No</b> → [**Citron**](https://github.com/GRID0-net/GRID0-citron) <i>(better on weak hardware)</i>
+→ [**Ryujinx**](https://github.com/GRID0-net/GRID0-ryu)
+
+</details>
+<details>
+<summary><b>No</b></summary>
+
+→ [**Citron**](https://github.com/GRID0-net/GRID0-citron) <i>(better on weak hardware)</i>
 
 </details>
 </details>
