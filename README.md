@@ -5,13 +5,6 @@
 
 # Welcome to GRID0
 
-> Official hub for GRID0 network routing and client setup. GRID0 is a virtual overlay network bridging all three Switch ecosystems into the same LAN lobby:
-> * **Emulators** (PC, Steam Deck)
-> * **CFW** (Atmosphère, Modded Switch 1)
-> * **OFW** (Stock Hardware, Unmodded Switch 1 and Switch 2)
-
----
-
 ## Where To Go
 
 **I want to play on...**
@@ -26,24 +19,10 @@
   - [Manual mode](#manual-mode)
 
 **I want to learn about...**
-- [What GRID0 is](#welcome-to-grid0)
+- [What GRID0 is](#what-is-grid0)
+- [What GRID0+ is](#what-is-grid0-plus)
 - [The three ecosystems](#services)
-- [Why the + in GRID0+](#services)
 - [Who runs this](#project-owners)
-
----
-
-## Services
-
-| Ecosystem | Platform / Environment | Core Tool | Connection Method |
-| :--- | :--- | :--- | :--- |
-| **Emulator** | PC / Steam Deck | **GRID0+ ryujinx<br> OR <br>GRID0+ citron** | A custom built emulator. |
-| **CFW** | Modded Switch | **GRID0+ cfw** | On-device background sysmodule and homebrew app. |
-| **OFW** | Unmodded Switch or Switch 2 | **GRID0 ofw** | PC companion application bridges Switch Wi-Fi traffic. |
-
-> **Why the +?** `GRID0+` and `GRID0+` are the names for the versions that will connect to simulated Nintendo servers, with lobbies, matchmaking, and in-game features.
-
----
 
 ## Setup Guides
 
@@ -197,8 +176,40 @@ Stock consoles cannot execute background custom modules. `grid0-relay` runs on a
 7. Make sure to save and connect to the network.
 </details></small>
 
-## Project Owners
+## What is GRID0
+
+GRID0 is a virtual overlay network bridging all three Switch ecosystems into the same LAN lobby:
+* **Emulators** (PC, Steam Deck)
+* **CFW** (Atmosphère, Modded Switch 1)
+* **OFW** (Stock Hardware, Unmodded Switch 1 and Switch 2)
+
+it runs on ZeroTier, so your switch, your friend's emulator, and someone's modded console all end up on the same virtual LAN. games that support local wireless or LAN play just work, no nintendo servers involved.
+
+<a id="what-is-grid0-plus"></a>
+## What is GRID0+
+
+GRID0+ is the version that connects to custom servers instead of just doing LAN.
+
+where GRID0 gives you the virtual network, GRID0+ gives you the online experience: lobbies, matchmaking, and in-game features like splatfests, all running on community servers instead of nintendo's.
+
+the `+` builds (GRID0+ ryujinx, GRID0+ citron, GRID0+ cfw) are the ones with private server support baked in. point them at a GRID0+ server and you're playing online.
+
+## Services
+
+| Ecosystem | Platform / Environment | Core Tool | Connection Method |
+| :--- | :--- | :--- | :--- |
+| **Emulator** | PC / Steam Deck | **GRID0+ ryujinx<br> OR <br>GRID0+ citron** | A custom built emulator. |
+| **CFW** | Modded Switch | **GRID0+ cfw** | On-device background sysmodule and homebrew app. |
+| **OFW** | Unmodded Switch or Switch 2 | **GRID0 ofw** | PC companion application bridges Switch Wi-Fi traffic. |
+
+---
+
+## Who Runs This
 
 - **[Mustafa](https://github.com/Musi95)**
 - **[name](https://github.com/redluigi323)**
 - **[Doughston](https://github.com/n-popescu)**
+
+---
+
+<small>GRID0 is a community project, not affiliated with Nintendo.</small>
