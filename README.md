@@ -58,8 +58,7 @@ graph TD
 <td valign="top">
 <details>
 <summary><b>Yes</b></summary>
-<p align="center"><b>Intel or Silicon?</b></p>
-<p align="center"><sub><a href="https://support.apple.com/en-us/HT211814">Check if your Mac has Apple Silicon or Intel</a></sub></p>
+<p align="center"><b>Intel or Silicon?</b><br><sub><a href="https://support.apple.com/en-us/HT211814">Check if your Mac has Apple Silicon or Intel</a></sub></p>
 <div align="center">
 <table>
 <tr>
@@ -87,8 +86,7 @@ graph TD
 <td valign="top">
 <details>
 <summary><b>No</b></summary>
-<p align="center"><b>CPU from 2019 or newer?</b></p>
-<p align="center"><sub><a href="https://www.intel.com/content/www/us/en/products/details/processors.html">Look up your Intel CPU release date</a> · <a href="https://www.amd.com/en/products/cpu.html">Look up your AMD CPU release date</a></sub></p>
+<p align="center"><b>CPU from 2019 or newer?</b><br><sub><a href="https://www.intel.com/content/www/us/en/products/details/processors.html">Look up your Intel CPU release date</a> · <a href="https://www.amd.com/en/products/cpu.html">Look up your AMD CPU release date</a></sub></p>
 <div align="center">
 <table>
 <tr>
