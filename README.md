@@ -68,7 +68,7 @@ Intel or Silicon?
 
 </details>
 </details>
-<hr>
+<hr style="width:50%;">
 <details>
 <summary><b>No</b></summary>
 CPU from 2019 or newer?
@@ -86,7 +86,7 @@ CPU from 2019 or newer?
 </details>
 </details>
 </details>
-
+<hr>
 <details>
 <summary><b>Emulator links</b></summary>
 
