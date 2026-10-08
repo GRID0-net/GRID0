@@ -50,11 +50,10 @@ graph TD
 </details>
 
 <details>
-<summary><b>Android Flowchart</b></summary>
+<summary><b>Mobile Flowchart</b></summary>
 Are you using a Mac?
 <details>
 <summary><b>Yes</b></summary>
-
 <details>
 <summary><b>Intel or Silicon?</b></summary>
 
@@ -62,12 +61,9 @@ Are you using a Mac?
 - <b>Silicon</b> → <b>Citrosis</b> <i>(native Swift UI, Metal renderer)</i>
 
 </details>
-
 </details>
-
 <details>
 <summary><b>No</b></summary>
-
 <details>
 <summary><b>CPU from 2019 or newer?</b></summary>
 
@@ -75,9 +71,7 @@ Are you using a Mac?
 - <b>No</b> → [**Citron**](https://github.com/GRID0-net/GRID0-citron) <i>(better on weak hardware)</i>
 
 </details>
-
 </details>
-
 </details>
 
 <details>
