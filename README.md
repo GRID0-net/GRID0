@@ -52,6 +52,7 @@ graph TD
 <details>
 <summary><b>Mobile Flowchart</b></summary>
 <p align="center">Are you using a Mac?</p>
+<div align="center">
 <table>
 <tr>
 <td valign="top">
@@ -92,6 +93,7 @@ CPU from 2019 or newer?
 </td>
 </tr>
 </table>
+</div>
 </details>
 <hr>
 <details>
