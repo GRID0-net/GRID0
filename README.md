@@ -210,6 +210,3 @@ the `+` builds (GRID0+ ryujinx, GRID0+ citron, GRID0+ cfw) are the ones with pri
 - **[name](https://github.com/redluigi323)**
 - **[Doughston](https://github.com/n-popescu)**
 
----
-
-<small>GRID0 is a community project, not affiliated with Nintendo.</small>
