@@ -52,7 +52,7 @@ graph TD
 <details>
 <summary><b>Mobile Flowchart</b></summary>
 <p align="center">Are you using a Mac?</p>
-<p align="center"><sub><a href="https://support.apple.com/en-us/HT201634">How to identify your Mac model</a></sub></p>
+<p align="center"><sub>(An Apple computer)</sub></p>
 <div align="center">
 <table>
 <tr>
