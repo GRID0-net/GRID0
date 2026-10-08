@@ -8,7 +8,7 @@
 ## Where To Go
 
 **I want to play on...**
-- 🖥️ [Emulator (PC / Steam Deck)](#1-emulator-setup-grid0-emu-) - Ryujinx, Eden, Astris, etc.
+- 🖥️ [Emulator (PC / Steam Deck)](#1-emulator-setup-grid0-emu-) - Ryujinx and Citron
   - [Windows setup](#windows)
   - [macOS setup](#macos)
   - [Linux setup](#linux)
