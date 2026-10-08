@@ -5,10 +5,10 @@
 
 # Welcome to GRID0
 
-> **WIP Notice**: Official hub for GRID0 network routing and client setup. GRID0 is a virtual overlay network bridging all three Switch ecosystems into the same LAN lobby:
-* **Emulators** (PC, Steam Deck)
-* **CFW** (Atmosphère, Modded Switch 1)
-* **OFW** (Stock Hardware, Unmodded Switch 1 and Switch 2)
+> Official hub for GRID0 network routing and client setup. GRID0 is a virtual overlay network bridging all three Switch ecosystems into the same LAN lobby:
+> * **Emulators** (PC, Steam Deck)
+> * **CFW** (Atmosphère, Modded Switch 1)
+> * **OFW** (Stock Hardware, Unmodded Switch 1 and Switch 2)
 
 ---
 
@@ -37,11 +37,11 @@
 
 | Ecosystem | Platform / Environment | Core Tool | Connection Method |
 | :--- | :--- | :--- | :--- |
-| **Emulator** | PC / Steam Deck (Ryujinx, Astris, Eden, etc.) | **GRID0+ emu** | Desktop client binds directly to emulator network adapter. |
-| **CFW** | Modded Switch (Atmosphère) | **GRID0+ cfw** | On-device background sysmodule. No host PC required. |
-| **OFW** | Unmodded Stock Switch or Switch 2 | **GRID0 ofw** | PC companion application bridges Switch Wi-Fi traffic. |
+| **Emulator** | PC / Steam Deck | **GRID0+ ryujinx<br> OR <br>GRID0+ citron** | A custom built emulator. |
+| **CFW** | Modded Switch | **GRID0+ cfw** | On-device background sysmodule and homebrew app. |
+| **OFW** | Unmodded Switch or Switch 2 | **GRID0 ofw** | PC companion application bridges Switch Wi-Fi traffic. |
 
-> **Why the +?** `emu-GRID0+` and `cfw-GRID0+` are the names for the future versions that will connect to simulated Nintendo servers, with lobbies, matchmaking, and in-game features. That part is still being built. Everything in this guide just gets you onto the GRID0 network itself.
+> **Why the +?** `GRID0+` and `GRID0+` are the names for the versions that will connect to simulated Nintendo servers, with lobbies, matchmaking, and in-game features.
 
 ---
 
