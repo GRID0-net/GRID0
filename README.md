@@ -5,30 +5,88 @@
 
 # Welcome to GRID0
 
-> **WIP Notice**: Official hub for GRID0 network routing and client setup. GRID0 is a virtual overlay network bridging all three Switch ecosystems into the same LAN lobby:
-* **Emulators** (PC, Steam Deck)
-* **CFW** (Atmosphère, Modded Switch 1)
-* **OFW** (Stock Hardware, Unmodded Switch 1 and Switch 2)
+## Where To Go
 
----
+**I want to play on...**
+- 🖥️ [Emulator (PC / Steam Deck)](#1-emulator-setup-grid0-emu-) - Ryujinx, Eden, Astris, etc.
+  - [Windows setup](#windows)
+  - [macOS setup](#macos)
+  - [Linux setup](#linux)
+  - [Emulator network settings](#emulator-settings-all-platforms)
+- 🔧 [Modded Switch (Atmosphère)](#2-modded-switch-grid0-cfw) - runs on the console, no PC needed
+- 🎮 [Stock Switch / Switch 2](#3-stock-switch-and-switch-2-setup-grid0-ofw) - unmodded hardware via PC relay
+  - [Automatic mode (Windows Hotspot)](#automatic-mode-easier-windows-and-hotspot-capable-only)
+  - [Manual mode](#manual-mode)
 
-## Services
-
-| Ecosystem | Platform / Environment | Core Tool | Connection Method |
-| :--- | :--- | :--- | :--- |
-| **Emulator** | PC / Steam Deck (Ryujinx, Astris, Eden, etc.) | **GRID0+ emu** | Desktop client binds directly to emulator network adapter. |
-| **CFW** | Modded Switch (Atmosphère) | **GRID0+ cfw** | On-device background sysmodule. No host PC required. |
-| **OFW** | Unmodded Stock Switch or Switch 2 | **GRID0 ofw** | PC companion application bridges Switch Wi-Fi traffic. |
-
-> **Why the +?** `emu-GRID0+` and `cfw-GRID0+` are the names for the future versions that will connect to simulated Nintendo servers, with lobbies, matchmaking, and in-game features. That part is still being built. Everything in this guide just gets you onto the GRID0 network itself.
-
----
+**I want to learn about...**
+- [What GRID0 is](#what-is-grid0)
+- [What GRID0+ is](#what-is-grid0-plus)
+- [The three ecosystems](#services)
+- [Who runs this](#project-owners)
 
 ## Setup Guides
 
-### 1. Emulator Setup (GRID0+ emu) **[(WORK IN PROGRESS)](https://github.com/Musi95/GRID0-client/)**
+### 1. Emulator Setup (GRID0+ emu)
 
-If you play on an emulator you just need the native ZeroTier client.
+#### Which emulator should I use?
+
+<details>
+<summary><b>PC Flowchart</b></summary>
+
+```mermaid
+graph TD
+    A[Do you have a Mac?] --> B{Yes}
+    A --> C{No}
+    B --> D{Intel or Silicon?}
+    D -->|Intel| E[Ryujinx]
+    D -->|Silicon| F[Citrosis<br/>native Swift UI, Metal renderer]
+    C --> G{Is your CPU from 2019 or newer?}
+    G -->|Yes| E
+    G -->|No| I[Citron<br/>better on weak hardware]
+    click E "https://github.com/GRID0-net/GRID0-ryu"
+    click I "https://github.com/GRID0-net/GRID0-citron"
+```
+
+</details>
+
+<details>
+<summary><b>Android Flowchart</b></summary>
+Are you using a Mac?
+<details>
+<summary><b>Yes</b></summary>
+
+<details>
+<summary><b>Intel or Silicon?</b></summary>
+
+- <b>Intel</b> → [**Ryujinx**](https://github.com/GRID0-net/GRID0-ryu)
+- <b>Silicon</b> → <b>Citrosis</b> <i>(native Swift UI, Metal renderer)</i>
+
+</details>
+
+</details>
+
+<details>
+<summary><b>No</b></summary>
+
+<details>
+<summary><b>CPU from 2019 or newer?</b></summary>
+
+- <b>Yes</b> → [**Ryujinx**](https://github.com/GRID0-net/GRID0-ryu)
+- <b>No</b> → [**Citron**](https://github.com/GRID0-net/GRID0-citron) <i>(better on weak hardware)</i>
+
+</details>
+
+</details>
+
+</details>
+
+<details>
+<summary><b>Emulator links</b></summary>
+
+- **Citrosis**: macOS Apple Silicon with native Swift UI and Metal renderer
+- **Ryujinx** or **Citron**: pick from the tree above — [Ryujinx](https://github.com/GRID0-net/GRID0-ryu) for newer hardware, [Citron](https://github.com/GRID0-net/GRID0-citron) for weaker PCs
+
+</details>
 
 #### Windows
 
@@ -118,8 +176,40 @@ Stock consoles cannot execute background custom modules. `grid0-relay` runs on a
 7. Make sure to save and connect to the network.
 </details></small>
 
-## Project Owners
+## What is GRID0
+
+GRID0 is a virtual overlay network bridging all three Switch ecosystems into the same LAN lobby:
+* **Emulators** (PC, Steam Deck)
+* **CFW** (Atmosphère, Modded Switch 1)
+* **OFW** (Stock Hardware, Unmodded Switch 1 and Switch 2)
+
+it runs on ZeroTier, so your switch, your friend's emulator, and someone's modded console all end up on the same virtual LAN. games that support local wireless or LAN play just work, no nintendo servers involved.
+
+<a id="what-is-grid0-plus"></a>
+## What is GRID0+
+
+GRID0+ is the version that connects to custom servers instead of just doing LAN.
+
+where GRID0 gives you the virtual network, GRID0+ gives you the online experience: lobbies, matchmaking, and in-game features like splatfests, all running on community servers instead of nintendo's.
+
+the `+` builds (GRID0+ ryujinx, GRID0+ citron, GRID0+ cfw) are the ones with private server support baked in. point them at a GRID0+ server and you're playing online.
+
+## Services
+
+| Ecosystem | Platform / Environment | Core Tool | Connection Method |
+| :--- | :--- | :--- | :--- |
+| **Emulator** | PC / Steam Deck | **GRID0+ ryujinx<br> OR <br>GRID0+ citron** | A custom built emulator. |
+| **CFW** | Modded Switch | **GRID0+ cfw** | On-device background sysmodule and homebrew app. |
+| **OFW** | Unmodded Switch or Switch 2 | **GRID0 ofw** | PC companion application bridges Switch Wi-Fi traffic. |
+
+---
+
+## Who Runs This
 
 - **[Mustafa](https://github.com/Musi95)**
 - **[name](https://github.com/redluigi323)**
 - **[Doughston](https://github.com/n-popescu)**
+
+---
+
+<small>GRID0 is a community project, not affiliated with Nintendo.</small>
