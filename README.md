@@ -210,3 +210,6 @@ the `+` builds (GRID0+ ryujinx, GRID0+ citron, GRID0+ cfw) are the ones with pri
 - **[name](https://github.com/redluigi323)**
 - **[Doughston](https://github.com/n-popescu)**
 
+---
+
+<sub>Built by 3 humans with limited AI assistance, tested on real Switches over many days and restless nights.
