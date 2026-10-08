@@ -51,8 +51,7 @@ graph TD
 
 <details>
 <summary><b>Mobile Flowchart</b></summary>
-<p align="center">Are you using a Mac?</p>
-<p align="center"><sub>(An Apple computer)</sub></p>
+<p align="center">Are you using a Mac?<br><sub>(An Apple computer)</sub></p>
 <div align="center">
 <table>
 <tr>
