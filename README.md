@@ -157,7 +157,7 @@ graph TD
 
 Runs directly on the console as a background sysmodule. No PC or phone required while playing.
 
-1. Download the latest release from the **[GRID0+ cfw](https://github.com/redluigi323/sys-GRID0/)** repository.
+1. Download the latest release from the **[GRID0+ cfw](https://github.com/GRID0-net/GRID0plus-cfw)** repository.
 2. Extract the archive to the root of your SD card.
 
 [image: the SD card root with the extracted sys-GRID0 folders in place]
