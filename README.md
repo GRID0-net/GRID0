@@ -217,6 +217,7 @@ it runs on ZeroTier, so your unmodded switch, your emulator, and your modded con
 <a id="what-is-grid0-plus"></a>
 ## What is GRID0+
 
+Note that GRID0+ is capable of connecting to GRID0.
 GRID0+ is the version that connects to custom servers instead of LAN.
 
 Where GRID0 gives you the virtual network, GRID0+ gives you the online experience: lobbies, matchmaking, and in-game features like Splatfests, all running on community servers instead of Nintendo's.
